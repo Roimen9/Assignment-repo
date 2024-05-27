@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background: transparent;
+    background-image: linear-gradient(to right,  #ffdb4a,#f6f63f);
+}
+
+header {
+    display: flex;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(-200px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+h1 {
+    font-weight: 500;
+    animation: slide 1.5s ease-in-out;
+}
+
+@keyframes slide-nav {
+    0% {
+        transform: translateX(500px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    animation: slide-nav 1.5s ease-in-out;
+}
+
+nav ul a {
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 0 20px;
+    transition: .5s ease-in-out;
+    border: hidden;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+nav ul a:hover {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    color: rgb(233, 222, 21);
+}
+
+main {
+    width: 100%;
+    background: transparent;
+    text-align: center;
+}
+
+h2 {
+    margin: 30px 0 25px 0;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+
+main p {
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    font-weight: 500;
+}
+
+div {
+    background: transparent;
+}
+
+.card {
+    height: 300px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    margin: 50px 500px 50px 500px;
+    border: 1px solid  rgb(0, 0, 0);
+    border-radius: 20px;
+    backdrop-filter: blur(60px);
+    transition: transform .5s ease-in-out;
+    padding: 2px;
+}
+
+input {
+    background: transparent;
+    margin: 20px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    
+    
+}
+
+input::placeholder {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    padding: 0 0 0 5px;
+}
+
+input {
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+textarea {
+    margin: 20px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid  rgb(0, 0, 0);
+    color: rgb(0, 0, 0);   
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+textarea::placeholder {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    padding: 0 0 0 5px;
+}
+
+footer {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+footer div {
+    display: flex;
+    justify-content: right;
+    margin: -40px 50px;
+    align-items: center;
+}
+
+footer div p {
+    margin: 0 40px;
+    border-radius: 15px;
+    padding: 5px;
+    transition: 0.5s ease-in-out;
+}
+
+footer div p:hover {
+    background-color: rgb(222, 222, 222);
+    color: black;
+}
+
