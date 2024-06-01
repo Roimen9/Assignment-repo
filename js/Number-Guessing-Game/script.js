@@ -23,11 +23,9 @@ function checkGuess() {
       lowOrHi.textContent = "";
       setGameOver();
     } else if (guessCount === 10) {
-      lastResult.textContent = "!!!GAME OVER!!!";
+      lastResult.textContent = "!!!GAME OVER!!!.The correct number was " + `${randomNumber}`;
       lowOrHi.textContent = "";
       setGameOver();
-    } else if(guessCount === null){
-        lastResult.style.backgroundColor = "white"
     } else {
       lastResult.textContent = "Wrong!";
       lastResult.style.backgroundColor = "red";
