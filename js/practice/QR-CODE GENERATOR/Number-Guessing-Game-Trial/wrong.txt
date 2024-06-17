@@ -1,0 +1,29 @@
+for (i = 0; i < guesses; i++) {
+//             for(j = 0; j < 1; j++) {
+//                 input.addEventListener('click', () => {
+//                     button.textContent = "Submit Guess"
+//                     box.className = "new"
+//                     let change = box.className
+//                     box.className = "show"
+//                     console.log(change)
+//                 })
+//                 listOfGuesses.push(guess)
+//                 console.log(listOfGuesses)
+//             }
+//         } 
+//         previousGeusses.textContent = listOfGuesses
+//         console.log("Your turn is over")
+//         button.textContent = "Restart Game"
+//         button.addEventListener('click', () => {
+//             input.value = ""
+//                 setTimeout(() => {
+//                     box.className = "show"
+//                     guessCounter = 0
+//                 }, 0);
+//                 button.textContent = "Submit Guess"
+//             })
+        
+//     } else {
+//         alert("You must input a number")
+//     }
+// }

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.frame {
+    max-width: 350px;
+    background-color: #333;
+    padding: 20px;
+    margin: 150px auto;
+    border-radius: 20px;
+}
+
+.display {
+    background-color: rgb(24, 24, 24);
+    color: white;
+    margin-bottom: 15px;
+    padding: 18px;
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: right;
+}
+
+.history {
+    padding: 5px;
+    font-size: 15px;
+    width: 50%;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.btn {
+    padding: 15px;
+    color: white;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+#number {
+    background-color: #484747;
+    transition: background-color 0.1s ease-in-out; 
+}
+
+#number:hover {
+    background-color: #6c6b6b;
+}
+
+#operand {
+    background-color: #ff9500;
+    transition: background-color 0.1s ease-in-out; 
+}
+
+#operand:hover {
+    background-color: #484747;
+}
+
+#equals {
+    background-color: rgb(25, 182, 111);
+    border-radius: 15px;
+    grid-column: span 2;
+    transition: background-color 0.1s ease-in-out; 
+}
+
+#equals:hover {
+    background-color: #484747;
+}
+
+#clear {
+    background-color: red;
+    transition: background-color 0.1s ease-in-out; 
+}
+
+#clear:hover {
+    background-color: #484747;
+}
+
+
+
