@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(143, 168, 242);
+}
+
+.container {
+    background: white;
+    min-width: 500px;
+    position: fixed;
+    transform: translate(-50%, -20%);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    top: fixed;
+}
+
+h2 {
+    color: navy;
+    margin-bottom: 20px;
+}
+
+.row {
+    background: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 15px;
+    font-size: 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+button {
+    padding: 0 25px;
+    border-radius: 30px;
+    border: none;
+    background: rgb(199, 161, 237);
+    cursor: pointer;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.unmarked {
+    height: 25px;
+    width: 25px;
+    border: 1px solid;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.marked {
+    height: 25px;
+    width: 25px;
+    border: 1px solid;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 10px;
+    background-color: rgb(199, 161, 237);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.task-marked {
+    text-decoration: line-through;
+}
+
+.delete {
+    position: absolute;
+    left: 85%;
+    border-radius: 5px;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.delete:hover {
+    background: whitesmoke;
+}
